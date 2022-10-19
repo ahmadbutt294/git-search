@@ -23,9 +23,11 @@ const Viewprofile = () => {
         </div>
         <div className={classes.name}>
           <h2>{data?.login}</h2>
-          <a>
-            <button>Visit Github Profile</button>
-          </a>
+          <>
+            <a href={data?.html_url} target="_blank">
+              <button>Visit Github Profile</button>
+            </a>
+          </>
           <div className={classes.boxes}>
             <div className={classes.box1}>
               {" "}
