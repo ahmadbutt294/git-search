@@ -1,0 +1,31 @@
+.Profileicon {
+  /* width: 500px; */
+  height: 100px;
+  background-color: #262931;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  display: flex;
+  gap: 30px;
+  color: white;
+}
+.profilepic {
+  width: 70px;
+  height: 70px;
+  border: 1px black solid;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+.cardText {
+  line-height: 05px;
+  margin-top: 18px;
+}
+a:-webkit-any-link {
+  color: gray;
+  cursor: pointer;
+  text-decoration: none;
+}
+.cardButon:hover {
+  cursor: pointer;
+  color: white;
+}

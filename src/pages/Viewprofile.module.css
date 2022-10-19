@@ -1,0 +1,80 @@
+.view {
+  display: flex;
+  gap: 40px;
+}
+.image img {
+  height: 310px;
+  padding: 10px;
+  margin: 60px;
+  width: 300px;
+  border-radius: 40px;
+}
+.name {
+  margin: 110px;
+  margin-left: 0px;
+}
+.name h2 {
+  color: white;
+}
+.name button {
+  padding: 12px;
+  width: 400px;
+  border-radius: 05px;
+  border-width: 1px;
+  border-color: white;
+}
+button {
+  color: white;
+  background-color: #393b48;
+}
+.boxes {
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+}
+.box1 {
+  margin-top: 40px;
+  width: 230px;
+  height: 60px;
+  border: 1px solid transparent;
+  box-shadow: 2px 3px 15px 1px rgb(20, 19, 19);
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+.section {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+.section1 {
+  align-items: center;
+  background-color: #262931;
+  border-radius: 0.5rem;
+  box-shadow: 3px 5px 25px -7px #1e1f25;
+  color: #fff;
+  display: flex;
+  font-size: 12px;
+  height: 76px;
+  justify-content: center;
+  margin-right: 19px;
+  margin-top: 30px;
+  text-align: center;
+  width: 21vw;
+}
+.data {
+  padding: 10px;
+  padding-top: 02px;
+}
+.section1 h2 {
+  display: block;
+  line-height: 1.5px;
+}
+.section1 img {
+  width: 50px;
+  height: 40px;
+  padding-left: 20px;
+}
